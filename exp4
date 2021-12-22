@@ -1,1 +1,32 @@
+                                                                                                                                                                      
+CREATE TABLE STUDENT(Rollnumber INT,NAME VARCHAR(20),Physics INT,chemistry INT,maths INT);
+INSERT INTO STUDENT VALUES(1,'Adam',20,20,33);
+INSERT INTO STUDENT VALUES(2,'BOb',18,9,41);
+INSERT INTO STUDENT VALUES(3,'Bright',22,7,31);
+INSERT INTO STUDENT VALUES(4,'Duke',13,21,20);
+INSERT INTO STUDENT VALUES(5,'Elvin',14,22,23);
+INSERT INTO STUDENT VALUES(6,'Fletcher',2,10,48);
+INSERT INTO STUDENT VALUES(7,'Georgia',22,12,22);
+INSERT INTO STUDENT VALUES(8,'Mary',24,14,31);
+INSERT INTO STUDENT VALUES(9,'TOM',19,15,24);
+INSERT INTO STUDENT VALUES(10,'Zack',8,20,36);
+/*SELECT Avg(Physics) FROM STUDENT;
+SELECT MAX(Maths) FROM STUDENT;
+Select Min(Chemistry) From STUDENT;
+SELECT Count(*) FROM STUDENT WHERE Physics>=12;
+Select Roll_No,Name,Physics,Chemistry,Maths From STUDENT Where Physics>=12 and Chemistry>=12 and Maths>=25 ;
+
+
+
+
+SELECT Count(*)/10*100 AS pass FROM STUDENT WHERE Maths>=25;
+SELECT Count(*)/10*100 AS pass FROM STUDENT WHERE Physics>=12 AND Chemistry>=12 AND Maths>=25;
+SELECT Avg(Physics), Avg(Chemistry),Avg(Maths) FROM STUDENT WHERE Physics>=12 AND Chemistry>=12 AND Maths>=25;
+Select count(*) From STUDENT Where Physics>=12 And Chemistry>=12 And Maths>=25 ;*/
+SELECT *
+FROM STUDENT;
+
+
+
+
 
